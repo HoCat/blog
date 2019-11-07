@@ -1,0 +1,191 @@
+@import '~bootstrap/scss/bootstrap';
+
+body{
+	font-size: 14px;
+	font-weight: normal;
+}
+
+nav.navbar.navbar-expand-lg {
+	margin-bottom: 20px;
+}
+
+
+/* footer */
+footer{
+	margin-top: 20px;
+	border-top: 1px solid #eaeaea;
+	color: #777;
+	font-size: 13px;
+	font-weight: bold;
+	a{
+		color: #555;
+	}
+	a:hover {
+    	color: #222;
+  	}
+  	small {
+    	float: left;
+  	}
+  	img.brand-icon {
+    	width: 17px;
+    	height: 17px;
+  	}
+}
+
+.jumbotron {
+	color:#fff;
+	text-align: center; 
+	font-family: 'Helvetica';
+	margin-top: 45px;
+	height: 500px;
+	h1{
+		font-size: 60px;
+		line-height: 220px;
+	}
+}
+
+.slogon{
+	font-size:13px;
+	font-weight:700
+}
+
+.gravatar_edit{
+	margin:15px auto;
+	text-align: center;
+	.gravatar{
+		float: none;
+		max-width: 100px;
+	}
+}
+
+.row > .offset-md-2 > section.user_info,.col-md-4 > section.user_info{
+	text-align: center;
+}
+
+
+
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 1px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 5px rgba(9, 9, 9, 0.27);
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.box-body {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 10px;
+}
+
+.table-responsive {
+    min-height: .01%;
+    overflow-x: auto;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.table > tbody > tr {
+	border-bottom: 1px solid #dee2e6;
+}
+
+.box-footer {
+	border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.btn.btn-flat {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-width: 1px;
+}
+
+.btn-default {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #ddd;
+}
+
+.btn {
+    border-radius: 3px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+}
+
+.box-footer a.btn-default:hover {
+	color : #fff;
+}
+
+.timu {
+	position: relative;
+    line-height: 1.7;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.timu .timu-text {
+	margin-right: 110px;
+    font-size: 18px;
+}
+
+.answer {
+	font-size : 16px;
+}
+
+.answer .options{
+	width: 520px;
+}
+
+.answer .left {
+	float: left;
+}
+
+.answer .options p{
+	margin: 10px 0;
+    line-height: 25px;
+    padding-left: 30px;
+    color: #666;
+    cursor: pointer;
+}
+
+.btn-bar > .btn {
+	float: left;
+    margin-right: 20px;
+}
+
+.btn-bar > .btn:hover {
+	background: #28a745;
+	color:#fff;
+}
