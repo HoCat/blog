@@ -1,8 +1,7 @@
 @extends('layout.default')
 
 @section('content')
-    <div class="jumbotron" style="background-image: url({{getRandImage()}});background-size: 33%;" >
-       
+    <div class="jumbotron" style="background-image: url({{getRandImage()}});background-size: 100% 100%;background-repeat: no-repeat" >
         <h1>{{ getSlogan() }},
              @if(Auth::check())
              {{ Auth::user()->name }}
@@ -19,7 +18,9 @@
                 <a class="btn btn-lg btn-success" href="{{ route('signup') }}" role="button">现在注册</a>
             @endif
         </p>
-       
+        <div>
+
+        </div>
     </div>
     @if(Auth::check())
      <div class="row">
