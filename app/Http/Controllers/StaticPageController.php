@@ -21,11 +21,11 @@ class StaticPageController extends Controller
 
     public function home()
     {      
-        // $feed_items = [];
-        // if(Auth::check()){
-        //     $feed_items = Auth::user()->feed()->paginate(5); //分页
-        // }
+        $feed_items = [];
+        if(Auth::check()){
+            $feed_items = Auth::user()->feed()->paginate(5); //分页
+        }
 
-        return view('static_page/home');
+        return view('static_page/home', compact('feed_items'));
     }
 }
