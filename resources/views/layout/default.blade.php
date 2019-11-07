@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>@yield('title', 'Sample App') - Laravel 入门教程</title>
+    <title>@yield('title', 'learn blog')</title>
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
   
 </head>
